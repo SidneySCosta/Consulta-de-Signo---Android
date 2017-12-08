@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".ActivityPrincipal">
+
+    <item
+    android:id="@+id/action_signos"
+    android:title="Signos"
+    android:orderInCategory="100"
+    app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_historico"
+        android:title="Histórico"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/action_sobre"
+        android:title="Sobre"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+</menu>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sidneycosta156gmail.meuprojeto.ActivitySobre">
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+        <TextView
+            android:id="@+id/sobreIntroTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="15dp"
+            android:text="@string/sobreIntroTV"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/InfoSobreTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sobreIntroTV"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="15dp"
+            android:text="@string/InfoSobreTV"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold|italic" />
+
+
+
+        <TextView
+            android:id="@+id/nomeFaculdadeTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="false"
+            android:layout_below="@+id/InfoSobreTV"
+            android:paddingLeft="10dp"
+            android:paddingTop="20dp"
+            android:text="@string/nomeFaculdadeTV"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/siteFaculdadeTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/nomeFaculdadeTV"
+            android:layout_alignStart="@+id/nomeFaculdadeTV"
+            android:layout_below="@+id/nomeFaculdadeTV"
+            android:paddingLeft="10dp"
+            android:text="@string/siteFaculdadeTV"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/nomeCursoTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/siteFaculdadeTV"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="false"
+            android:layout_alignStart="@+id/siteFaculdadeTV"
+            android:layout_below="@+id/siteFaculdadeTV"
+            android:paddingLeft="10dp"
+            android:paddingTop="20dp"
+            android:text="@string/nomeCursoTV"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/faceCursoTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/nomeCursoTV"
+            android:layout_alignStart="@+id/nomeCursoTV"
+            android:layout_below="@+id/nomeCursoTV"
+            android:layout_centerVertical="true"
+            android:paddingLeft="10dp"
+            android:text="@string/faceCursoTV"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="italic" />
+
+
+        <TextView
+            android:id="@+id/nomeDesenvolvedorTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/faceCursoTV"
+            android:layout_alignStart="@+id/faceCursoTV"
+            android:layout_below="@+id/faceCursoTV"
+            android:paddingLeft="10dp"
+            android:paddingTop="20dp"
+            android:text="@string/nomeDesenvolvedorTV"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/emailDesenvolvedorTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/faceCursoTV"
+            android:layout_alignStart="@+id/faceCursoTV"
+            android:layout_below="@+id/nomeDesenvolvedorTV"
+            android:paddingLeft="10dp"
+            android:text="@string/emailDesenvolvedorTV"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/nomeProfessorTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/emailDesenvolvedorTV"
+            android:paddingLeft="10dp"
+            android:paddingTop="20dp"
+            android:text="@string/nomeProfessorTV"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/emailProfessorTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/nomeProfessorTV"
+            android:layout_alignStart="@+id/nomeProfessorTV"
+            android:layout_below="@+id/nomeProfessorTV"
+            android:paddingBottom="20dp"
+            android:paddingLeft="10dp"
+            android:text="@string/emailProfessorTV"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="italic" />
+
+
+    </RelativeLayout>
+
+
+</ScrollView>
